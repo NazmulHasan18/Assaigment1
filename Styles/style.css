@@ -117,7 +117,7 @@ nav a:hover{
     color: #444343;
     margin-top: 20px;
     padding: 22px;
-    list-style-image: url(../images/icons/check-mark.png);
+    list-style-image: url('../images/icons/check-mark.png');
 }
 
 /* Here start plan style */
