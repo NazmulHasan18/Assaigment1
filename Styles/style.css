@@ -89,7 +89,7 @@
 
 .dream-sub {
     box-shadow: 10px 5px 5px rgb(167, 167, 167);
-    background-color: #ffe9e9;
+    background-color: #fffcfc;
     border: 0;
     border-radius: 5px;
 }
@@ -127,5 +127,60 @@
     font-size: 40px;
     color: #ffffff;
     padding-bottom: 10px;
+}
 
+/* Here start footer section */
+footer {
+    background-color: black;
+    display: flex;
+    gap: 330px;
+    color: white;
+    padding: 130px 230px;
+}
+
+/* Here footer future section */
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.future-description p {
+    max-width: 480px;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.future a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+/* Here Footer Subscribe section */
+.subscribe{
+    max-width: 330px;
+}
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.subscribe .email{
+    padding: 21px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.subscribe-btn {
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 198, 255);
+    padding: 20px 30px;
+    border-radius: 10px; 
 }
