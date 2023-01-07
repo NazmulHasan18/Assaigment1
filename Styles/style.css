@@ -51,11 +51,13 @@ nav a:hover{
     /* here start Main header */
 
 .header {
-    background-image: linear-gradient(90deg, #005FAC 0%, rgba(88, 117, 141, 0) 100%), url('../images/banner/banner4.png');
+    background-image: url('../images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: right;
+    direction: rtl;
     color: #ffffff;
-    padding-left: 230px;
+    padding-right: 230px;
 }
 
 .main-title {
@@ -136,7 +138,6 @@ nav a:hover{
 
 .dream-sub {
     box-shadow: 10px 5px 5px rgb(167, 167, 167);
-    background-color: #fffcfc;
     border: 0;
     border-radius: 5px;
 }
