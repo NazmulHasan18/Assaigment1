@@ -41,6 +41,7 @@
     margin-top: 130px;
     margin-left: 200px;
 }
+
 .my-failure {
     margin-top: 30px;
     max-width: 400px;
@@ -48,20 +49,64 @@
     display: block;
     /* color: #444343; */
 }
+
 .section-title {
     margin-top: 200px;
     font-weight: 700;
     font-size: 40px;
 }
+
 .failure-description {
     font-size: 18px;
     color: #444343;
     margin-top: 30px;
 }
-.failure-list{
+
+.failure-list {
     font-size: 18px;
     color: #444343;
     margin-top: 20px;
     padding: 22px;
-    list-style-image: url(../images/icons/check-mark.png);    
+    list-style-image: url(../images/icons/check-mark.png);
+}
+
+/* Here start plan style */
+
+
+.my-plan {
+    margin: 0 240px;
+    text-align: center;
+}
+
+.dream {
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.dream-sub {
+    box-shadow: 10px 5px 5px rgb(167, 167, 167);
+    background-color: #ffe9e9;
+    border: 0;
+    border-radius: 5px;
+    /* padding: 0 30px; */
+    /* width: 250px;
+    height: 200px; */
+}
+.dream img{
+    padding-top: 30px;
+}
+
+.dream-title {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.dream-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 20px;
+    width: 250px;
 }
