@@ -28,10 +28,13 @@
 .primary-btn {
     border: 0;
     border-radius: 10px;
+    font-weight: 500;
     font-size: 25px;
-    color: #ff36c3;
+    color: #6361ff;
     padding: 18px 25px;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    background-color: #ffffff;
 }
 
 /* Here start failures section style */
@@ -89,11 +92,9 @@
     background-color: #ffe9e9;
     border: 0;
     border-radius: 5px;
-    /* padding: 0 30px; */
-    /* width: 250px;
-    height: 200px; */
 }
-.dream img{
+
+.dream img {
     padding-top: 30px;
 }
 
@@ -109,4 +110,22 @@
     color: #737272;
     margin-top: 20px;
     width: 250px;
+}
+
+/* Here start call now section */
+.call-now {
+    margin: 130px 230px;
+    background-image: linear-gradient(to right, rgb(48, 48, 255), rgba(0, 0, 255, 0)), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.call-now-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    padding-bottom: 10px;
+
 }
